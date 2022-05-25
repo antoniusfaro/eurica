@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="+id/scan"
+        android:icon="@drawable/ic_baseline_camera_enhance_24"
+        android:title="Scan"
+        android:contentDescription="Scan"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/scan_result"
+        android:icon="@drawable/ic_outline_image_24"
+        android:title="Scan Result"
+        android:contentDescription="Scan Result"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_outline_format_list_bulleted_24"
+        android:title="Item List"
+        android:contentDescription="List Item"
+        app:showAsAction="never" />
+</menu>

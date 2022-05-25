@@ -5,17 +5,21 @@
       <map>
         <entry key="..\:/Project/eurica/app/src/main/res/drawable/bg_custom_textview.xml" value="0.2165" />
         <entry key="..\:/Project/eurica/app/src/main/res/drawable/ic_baseline_camera_enhance_24.xml" value="0.2165" />
+        <entry key="..\:/Project/eurica/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2165" />
+        <entry key="..\:/Project/eurica/app/src/main/res/drawable/ic_outline_star_outline_24.xml" value="0.2165" />
         <entry key="..\:/Project/eurica/app/src/main/res/font/museomoderno.xml" value="0.23958333333333334" />
         <entry key="..\:/Project/eurica/app/src/main/res/font/museomoderno_bold.xml" value="0.23958333333333334" />
-        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_detail_item.xml" value="0.33" />
-        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_item_list.xml" value="0.25" />
+        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_detail_item.xml" value="0.22" />
+        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_detail_saved.xml" value="0.25" />
+        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_item_list.xml" value="0.33" />
         <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_registration.xml" value="0.25" />
-        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_saved_list.xml" value="0.1953125" />
-        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_scan.xml" value="0.25" />
-        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_scan_result.xml" value="0.25" />
+        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_saved_list.xml" value="0.33" />
+        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_scan.xml" value="0.33" />
+        <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_scan_result.xml" value="0.33" />
         <entry key="..\:/Project/eurica/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Project/eurica/app/src/main/res/menu/navigation_rail_menu.xml" value="0.5" />
       </map>
     </option>
   </component>
