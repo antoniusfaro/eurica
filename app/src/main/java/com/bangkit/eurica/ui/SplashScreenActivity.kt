@@ -1,4 +1,4 @@
-package com.bangkit.eurica
+package com.bangkit.eurica.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.bangkit.eurica.R
+import com.bangkit.eurica.ui.auth.LoginActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
