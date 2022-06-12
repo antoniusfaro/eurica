@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "621057778543",
+    "project_id": "eurica-app",
+    "storage_bucket": "eurica-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621057778543:android:378e8c4c0091446fb4fe9a",
+        "android_client_info": {
+          "package_name": "com.bangkit.eurica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621057778543-vksbsrbhuqrhep62m8ec1hncaqaqg641.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bangkit.eurica",
+            "certificate_hash": "7ed3b07105f77d8e6530d6a8d7977a8f4409605c"
+          }
+        },
+        {
+          "client_id": "621057778543-ndiilf31hbfl1pkjhe3ddten7f8vkjg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnsnh2hQNza2cCjrYiUj8apl-dUBIOR7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621057778543-ndiilf31hbfl1pkjhe3ddten7f8vkjg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
