@@ -4,109 +4,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ItemListActivity">
+    tools:context=".ui.scan.ItemListActivity">
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/detail_saved_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/nunito_sans_bold"
-        android:text="Teh Botol Sosro 300ml"
         android:textColor="#2A2A2A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_saved_item_image"
+        tools:text="Teh Botol Sosro 300ml" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/detail_saved_item_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/nunito_sans_bold"
-        android:text="Rp 6.500,-"
         android:textColor="#2A2A2A"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_saved_item_name"
+        tools:text="Rp 6.500,-" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/detail_saved_item_qty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/nunito_sans"
-        android:text="Max: 5 items"
         android:textColor="#2A2A2A"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_saved_item_price"
+        tools:text="Max: 5 items" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/detail_saved_item_total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/nunito_sans"
-        android:text="Rp 32.500,-"
         android:textColor="#2A2A2A"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_saved_item_qty"
+        tools:text="Rp 32.500,-" />
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/detail_saved_item_change_due"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/nunito_sans"
-        android:text="Change due: Rp 17.500-"
         android:textColor="#2A2A2A"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_saved_item_total"
+        tools:text="Change due: Rp 17.500-" />
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/detail_saved_item_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/nunito_sans"
-        android:text="Teh Botol Sosro adalah merek teh beraroma melati yang dipasarkan oleh PT. Sinar Sosro. Teh Botol Sosro sangat populer di Indonesia dan kini juga dijual di berbagai negara di luar Indonesia. Menurut hasil penelitian majalah SWA, Teh Botol Sosro bahkan lebih digemari masyarakat Indonesia daripada Coca-Cola."
         android:textColor="#2A2A2A"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_saved_item_change_due"
+        tools:text="Teh Botol Sosro adalah merek teh beraroma melati yang dipasarkan oleh PT. Sinar Sosro. Teh Botol Sosro sangat populer di Indonesia dan kini juga dijual di berbagai negara di luar Indonesia. Menurut hasil penelitian majalah SWA, Teh Botol Sosro bahkan lebih digemari masyarakat Indonesia daripada Coca-Cola." />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/detail_saved_item_image"
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/dice_1" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/secondary"
+        android:background="@color/primary"
         android:fontFamily="@font/museomoderno_semibold"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:text="Detail Saved Item"
         android:textAlignment="center"
-        android:textColor="@color/primary"
+        android:textColor="@color/secondary"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,7 +129,7 @@
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/fab_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"

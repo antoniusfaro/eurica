@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF0CD"
-    android:backgroundTint="#FFF0CD"
-    tools:context=".SplashScreenActivity">
+    android:background="#252947"
+    android:backgroundTint="#252947"
+    tools:context=".ui.SplashScreenActivity">
 
     <TextView
         android:id="@+id/textView4"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/museomoderno_semibold"
         android:text="Eurica"
-        android:textColor="#F16B52"
+        android:textColor="#7EB8C4"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

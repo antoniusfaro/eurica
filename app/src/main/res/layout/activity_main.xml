@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF0CD"
-    tools:context=".MainActivity">
+    android:background="@color/primary"
+    tools:context=".ui.MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="48dp"
         android:fontFamily="@font/museomoderno_semibold"
         android:text="Hi, username!"
-        android:textColor="#F16B52"
+        android:textColor="@color/secondary"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,9 +29,9 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/nunito_sans_bold"
         android:text="Pasar Rawabuntu"
-        android:textColor="#F16B52"
+        android:textColor="@color/secondary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -40,11 +40,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menu_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:src="@drawable/menu_1"
+        tools:srcCompat="@drawable/menu_1" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -53,11 +56,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menu_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:src="@drawable/menu_2"
+        tools:srcCompat="@drawable/menu_2" />
 
     <TextView
         android:id="@+id/textView3"
